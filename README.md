@@ -1,7 +1,7 @@
 SOLICITANDO O ARQUIVO DO INSTA:
 
-abra o site do instagram
-va no seu perfil
+>> abra o site do instagram
+>> va no seu perfil
 va em configurações
 account center
 download your info
@@ -12,7 +12,7 @@ download to device
 range all time
 formato html
 ai envtualmente voce vai receber um email avisando p baixar
-- baixe o arquivo e abra o html
+baixe o arquivo e abra o html
 
 PASSO 1:
 
