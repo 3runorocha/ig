@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define MAX_LINES 60000
+#define MAX_LENGTH 100
+
+int compareStrings(const void *a, const void *b)
+{
+  return strcmp(*(const char **)a, *(const char **)b);
+}
+
+int main()
+{
+  char *lines[MAX_LINES];
+  char buffer[MAX_LENGTH];
+  int lineCount = 0;
+  while (fgets(buffer, sizeof(buffer), stdin) != NULL && lineCount < MAX_LINES)
+  {
+    size_t length = strlen(buffer);
+    if (length > 0 && buffer[length - 1] == '\n')
+    {
+      buffer[length - 1] = '\0';
+    }
+    if (strchr(buffer, ' ') == NULL)
+    {
+      lines[lineCount] = malloc((length + 1) * sizeof(char));
+      strcpy(lines[lineCount], buffer);
+      lineCount++;
+    }
+  }
+  qsort(lines, lineCount, sizeof(char *), compareStrings);
+  for (int i = 0; i < lineCount; i++)
+  {
+    printf("%s\n", lines[i]);
+  }
+  for (int i = 0; i < lineCount; i++)
+  {
+    free(lines[i]);
+  }
+  return 0;
+}
