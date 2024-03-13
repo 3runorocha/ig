@@ -1,4 +1,4 @@
-SOLICITANDO O ARQUIVO DO INSTA:
+# SOLICITANDO O ARQUIVO DO INSTA:
 
 <p>abra o site do instagram</p>
 <p>va no seu perfil</p>
@@ -14,10 +14,7 @@ SOLICITANDO O ARQUIVO DO INSTA:
 <p>ai envtualmente voce vai receber um email avisando p baixar</p>
 <p>baixe o arquivo e abra o html</p>
 
-<p> . </p>
-<p> . </p>
-
-PASSO 1:
+## PASSO 1:
 
 <p>abra o site: https://www.onlinegdb.com/online_c_compiler</p>
 <p>em "Standard Input:" marque a opção text</p>
@@ -36,31 +33,25 @@ PASSO 1:
 <p>volte para o gdb, e cole as linhas selecionadas na area "enter input to program here"</p>
 <p>apague a seção no site do gdb:</p>
 
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
-#include <stdio.h>
-
-int main()
-{
-    printf("Hello World");
-    return 0;
-}
+>>> /******************************************************************************</p>
+>>> </p>
+>>>...........................Online C Compiler.</p>
+>>>...........Code, Compile, Run and Debug C program online.</p>
+>>> Write your code in this editor and press "Run" button to compile and execute it.</p>
+>>> *******************************************************************************/</p>
+>>> #include <stdio.h></p>
+>>> int main()</p>
+>>> {</p>
+>>>     printf("Hello World");</p>
+>>>     return 0;</p>
+>>> }</p>
 
 <p>abra o passo 1 no github copie o codigo e cole na area que você acabou de apagar as linhas acima</p>
 <p>pressione o botão verde run</p>
 <p>abra o bloco de notas, salve com o nome followers/following, e cole TODAS as linhas que o programa retornou</p>
 <p>repita tudo mais uma vez dessa vez com a seção oposta da que você fez primeiro (se vez follower primeiro agora faça following)</p>
 
-<p> . </p>
-<p> . </p>
-
-PASSO 2:
+## PASSO 2:
 
 <p>abra o gdb novamente, apague todas as linhas, selecione o input como texto</p>
 <p>copie todas as linhas de following e cole no input</p>
@@ -70,17 +61,12 @@ PASSO 2:
 >> primeiro usuario que você segue</p>
 >> ultimo seguidor</p>
 
->> ultimo seguidor</p>
-
 <p>copie o codigo do passo 2 na area destinada pra codigo no gdb</p>
 <p>pressione o botão verde run</p>
 <p>salve o resultado em outro bloco de notas</p>
 <p>esse resultado vai corresponder a todos os usuarios unicos (se você segue um usuario e ele te segue de volta, ele se repete, deixando de ser unico)</p>
 
-<p> . </p>
-<p> . </p>
-
-PASSO 3:
+## PASSO 3:
 
 <p>abra o gdb novamente, apague todas as linhas, selecione o input como texto</p>
 <p>copie todas as linhas de following e cole no input</p>
