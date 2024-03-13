@@ -1,18 +1,18 @@
 SOLICITANDO O ARQUIVO DO INSTA:
 
-<p>abra o site do instagram</p>
-<p>va no seu perfil</p>
-<p>va em configurações</p>
-<p>account center</p>
-<p>download your info</p>
-<p>download or transfer</p>
-<p>some of your info</p>
-<p>ai marca só followers and following</p>
-<p>download to device</p>
-<p>range all time</p>
-<p>formato html</p>
-<p>ai envtualmente voce vai receber um email avisando p baixar</p>
-<p>baixe o arquivo e abra o html</p>
+> abra o site do instagram</p>
+> va no seu perfil</p>
+> va em configurações</p>
+> account center</p>
+> download your info</p>
+> download or transfer</p>
+> some of your info</p>
+> ai marca só followers and following</p>
+> download to device</p>
+> range all time</p>
+> formato html</p>
+> ai envtualmente voce vai receber um email avisando p baixar</p>
+> baixe o arquivo e abra o html</p>
 
 PASSO 1:
 
