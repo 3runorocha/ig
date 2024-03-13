@@ -24,12 +24,19 @@ PASSO 1:
 ////////////////////////////////////////////////////////////////////////
 
 ex:
+
 linha 1: Followers
+
 linha 2: USUARIO
+
 linha 3: Mar 5, 2024, 12:05 PM
+
 ...
+
 linha n: Oct 22, 2011, 11:35 PM
+
 copie entre a linha a linha 2 e n
+
 ////////////////////////////////////////////////////////////////////////
 
 > volte para o gdb, e cole as linhas selecionadas na area "enter input to program here"
