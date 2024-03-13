@@ -35,14 +35,13 @@ linha 3: Mar 5, 2024, 12:05 PM
 
 linha n: Oct 22, 2011, 11:35 PM
 
-copie entre a linha a linha 2 e n
+copie entre a linha a linha 2 e n (sendo a linha n a ultima linha da pagina)
 
 ////////////////////////////////////////////////////////////////////////
 
 > volte para o gdb, e cole as linhas selecionadas na area "enter input to program here"
 > apague a seção no site do gdb:
 /******************************************************************************
-
                             Online C Compiler.
                 Code, Compile, Run and Debug C program online.
 Write your code in this editor and press "Run" button to compile and execute it.
@@ -54,7 +53,6 @@ Write your code in this editor and press "Run" button to compile and execute it.
 int main()
 {
     printf("Hello World");
-
     return 0;
 }
 
