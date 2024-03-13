@@ -1,0 +1,60 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct
+{
+  char* str;
+  int contador;
+} StringCount;
+
+int compare(const void* a, const void* b)
+{
+  return strcmp(((StringCount*)a) -> str, ((StringCount*)b) -> str);
+}
+
+int main()
+{
+  int max = 30000;
+  char** strings = (char**)malloc(max * sizeof(char*));
+  for (int i = 0; i < max; i++)
+  {
+    strings[i] = (char*)malloc(256 * sizeof(char));
+    scanf("%s", strings[i]);
+  }
+  StringCount* counts = (StringCount*)malloc(max * sizeof(StringCount));
+  int count_size = 0;
+  for (int i = 0; i < max; i++)
+  {
+    int j;
+    for (j = 0; j < count_size; j++)
+    {
+      if (strcmp(counts[j].str, strings[i]) == 0)
+      {
+        counts[j].contador++;
+        break;
+      }
+    }
+    if (j == count_size)
+    {
+      counts[count_size].str = strdup(strings[i]);
+      counts[count_size].contador = 1;
+      count_size++;
+      }
+  }
+  qsort(counts, count_size, sizeof(StringCount), compare);
+  for (int i = 0; i < count_size; i++) {
+      if (counts[i].contador == 1) {
+          printf("%s\n", counts[i].str);
+      }
+  }
+  for (int i = 0; i < max; i++) {
+      free(strings[i]);
+  }
+  free(strings);
+  for (int i = 0; i < count_size; i++) {
+      free(counts[i].str);
+  }
+  free(counts);
+  return 0;
+}
