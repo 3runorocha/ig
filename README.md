@@ -1,7 +1,7 @@
 SOLICITANDO O ARQUIVO DO INSTA:
-
->> abra o site do instagram
->> va no seu perfil
+<p>
+abra o site do instagram
+va no seu perfil
 va em configurações
 account center
 download your info
@@ -13,7 +13,7 @@ range all time
 formato html
 ai envtualmente voce vai receber um email avisando p baixar
 baixe o arquivo e abra o html
-
+</p>
 PASSO 1:
 
 > abra o site: https://www.onlinegdb.com/online_c_compiler
