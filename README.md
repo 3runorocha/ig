@@ -22,6 +22,7 @@ PASSO 1:
 > copie tudo abaixo de followers ou following até o final da pagina
 
 ////////////////////////////////////////////////////////////////////////
+
 ex:
 linha 1: Followers
 linha 2: USUARIO
@@ -62,6 +63,7 @@ PASSO 2:
 > copie todas as linhas de followers e cole no input abaixo da ultima linha do following
 
 ////////////////////////////////////
+
 ex:
 primeiro usuario que você segue
 ultimo seguidor
@@ -84,6 +86,7 @@ PASSO 3:
 > copie todas as linhas dos usuarios unicos obtidos e cole no input abaixo da ultima linha do following
 
 ////////////////////////////////////
+
 ex:
 ultimo seguidor que você segue
 primeiro seguidor unico
