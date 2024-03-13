@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define MAX_STRINGS 30000
+#define MAX_LENGTH 25
+
+int compareStrings(const void *a, const void *b)
+{
+  return strcmp(*(const char **)a, *(const char **)b);
+}
+
+int main()
+{
+  char *strings[MAX_STRINGS];
+  char input[MAX_LENGTH];
+  int count = 0;
+  while (count < MAX_STRINGS && scanf("%24s", input) != EOF)
+  {
+    strings[count] = strdup(input);
+    count++;
+  }
+  qsort(strings, count, sizeof(char *), compareStrings);
+  for (int i = 1; i < count; i++)
+  {
+    if (strcmp(strings[i - 1], strings[i]) == 0)
+    {
+      printf("%s\n", strings[i]);
+      while (i < count && strcmp(strings[i - 1], strings[i]) == 0)
+      {
+        i++;
+      }
+    }
+  }
+  for (int i = 0; i < count; i++)
+  {
+    free(strings[i]);
+  }
+  return 0;
+}
